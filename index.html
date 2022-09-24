@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title></title>
+<script type="module" src="https://unvt.github.io/tell/module-s.js"></script>
+</head>
+<body>
+<script type="text/yaml">
+style: https://gsi-cyberjapan.github.io/gsivectortile-mapbox-gl-js/std.json
+title: 地図語りのテスト
+subtitle: 2021年11月のテスト
+byline: 背景地図には 地理院地図Vector（仮称）を使っています。 (powered by UNVT)
+theme: light
+footer: これでストーリーは終わりです。地理院地図Vector（仮称）は <a href='https://maps.gsi.go.jp/vector/'>こちら</a>
+view:
+  gsi-z8:
+    center: [140.084722, 36.104578]
+    zoom: 8
+  gsi-z10:
+    center: [140.084722, 36.104578]
+    zoom: 10
+  gsi-z15:
+    center: [140.084722, 36.104578]
+    zoom: 15
+chapters: 
+  - id: chapter1
+    alignment: center
+    url: https://www.gsi.go.jp/
+    title: 国土地理院
+    description: >
+      国土地理院は茨城県にあります。
+    location: gsi-z8
+  - id: chapter2
+    alignment: left
+    url: https://www.gsi.go.jp/
+    title: 国土地理院
+    description: >
+      国土地理院はつくば市にあります。北に筑波山、東に霞ヶ浦があります。
+    location: gsi-z10
+  - id: chapter3
+    alignment: right
+    url: https://www.gsi.go.jp/
+    title: 国土地理院
+    description: >
+      国土地理院は学園西大通り沿いにあります。警察署のそばです。
+    location: gsi-z15
+</script>
+</body>
+</html>
